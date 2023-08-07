@@ -18,7 +18,7 @@
 }
 
 nav {
-    background:#FFF;
+    background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     align-content: center;
 }
@@ -81,21 +81,72 @@ nav .nav-jn {
 
 
 
+/* INtro-ONE_starts here/ */
 
+.text-ele {
+    display: flex;
+    align-items: center; margin-bottom: 17px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.text-ele img {
+    margin-right: 5px;
    
+}
+
+.intro-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
     
+}
+
+.intro-h-one {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.intro-h-two {
+    font-size: 5.94rem;
+    font-weight: 800;
+    background-image: linear-gradient(to top, var(--pri), var(--sec));
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 24px;
+
+}
+
+.pink-btn,
+.blue-btn {
+    padding: 21px 40px;
+    border-radius: 3rem;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 41px;
+}
+
+.pink-btn {
+    background-color: var(--pri);
+    border: solid var(--pri);
+    margin-right: 24px;
+}
+
+.blue-btn {
+    background-color: #4EC5F7;
+    border: solid #4EC5F7;
+}
+
+/* .intro-one-text{
+   
+    position: cover;
+    
+} */
+/* .xd {
+    background-image: linear-gradient(to left, red, black);
+  height:100px 
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 13rem;} */
