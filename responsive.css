@@ -9,6 +9,7 @@
     nav {
         background: none;
         box-shadow: none;
+        
     }
 
 
@@ -40,7 +41,31 @@
         margin: 103px auto 62px;
     }
 
-    /* 
-.nav-btn a{margin-top:2.25rem ;} */
-    /* .nav-btn{gap: 36px;} */
-}
+   
+
+
+
+
+    /* intro-one responsive section */
+    .div-intro-one{width: 100%;
+        align-items: center;padding: 0 auto;
+        
+    }
+    .intro-one{flex-direction: column-reverse;gap:24px;
+    transform: translate(29rem,5rem);
+    background: none;}
+
+
+    .intro-one-text{
+        width: 901px;
+        height: 700px;
+        
+        background-image: url(./images/Group\ 14.png);
+    background-position: cover;
+text-align: center;}
+.text-ele{transform: translate(18rem);}
+.intro-h-one{margin-top: 131px;}
+
+
+    }
+.

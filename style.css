@@ -9,6 +9,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -93,12 +94,13 @@ nav .nav-jn {
    
 }
 
-.intro-one {
+.intro-one {/* width: 100%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
+    
     
 }
 
@@ -138,15 +140,10 @@ nav .nav-jn {
     background-color: #4EC5F7;
     border: solid #4EC5F7;
 }
+.div-intro-one{width: 1920px;
+height: 5927px;}
 
-/* .intro-one-text{
-   
-    position: cover;
-    
-} */
-/* .xd {
-    background-image: linear-gradient(to left, red, black);
-  height:100px 
-    color: transparent;
-    -webkit-background-clip: text;
-    font-size: 13rem;} */
+
+
+
+
