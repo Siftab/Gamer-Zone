@@ -1,0 +1,46 @@
+@media screen and (max-width:576px) {
+
+    .nav-bar,
+    .nav-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        background: none;
+        box-shadow: none;
+    }
+
+
+    .nav-bar {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .nav-logo p {
+        font-size: 45px;
+    }
+
+    .nav-btn {
+        text-align: center;
+        margin: 0px auto;
+        font-size: 18px;font-weight: 500;
+    }
+
+    .A-U {
+        margin-bottom: 36px;
+    }
+
+    .DEV {
+        margin-bottom: 62px;
+    }
+
+    .nav-logo {
+        margin: 103px auto 62px;
+    }
+
+    /* 
+.nav-btn a{margin-top:2.25rem ;} */
+    /* .nav-btn{gap: 36px;} */
+}
