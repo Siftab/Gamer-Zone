@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&family=Open+Sans:wght@800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --pri: #F948B2;
+    --sec: #8758F1;
+    --wri: #534C64;
+}
+
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 8.12rem;
+    align-items: center;
+    color: #0B0223;
+
+
+
+}
+
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.81rem;
+    font-weight: 700;
+
+
+}
+
+.nav-logo>img {
+    margin-right: 20px;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    color: var(--wri);
+    margin-left: 300px;
+
+}
+
+.nav-btn a {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: var(--wri);
+}
+
+nav .nav-jn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(11, 2, 35, 0.10);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 0px 10px 24px;
+    border-radius: .5rem;
+}
+
+.nav-jn>P {
+    margin-right: 1.5rem;
+}
