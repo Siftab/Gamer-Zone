@@ -30,9 +30,6 @@ nav {
     height: 8.12rem;
     align-items: center;
     color: #0B0223;
-
-
-
 }
 
 
@@ -74,6 +71,7 @@ nav .nav-jn {
     padding: 10px 0px 10px 24px;
     border-radius: .5rem;
 }
+
 
 .nav-jn>P {
     margin-right: 1.5rem;
