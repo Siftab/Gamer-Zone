@@ -86,22 +86,24 @@ nav .nav-jn {
 
 .text-ele {
     display: flex;
-    align-items: center; margin-bottom: 17px;
+    align-items: center;
+    margin-bottom: 17px;
 }
 
 .text-ele img {
     margin-right: 5px;
-   
+
 }
 
-.intro-one {/* width: 100%; */
+.intro-one {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-image: url(./images/Group\ 14.png);
     background-repeat: no-repeat;
-    
-    
+
+
 }
 
 .intro-h-one {
@@ -140,10 +142,63 @@ nav .nav-jn {
     background-color: #4EC5F7;
     border: solid #4EC5F7;
 }
-.div-intro-one{width: 1920px;
-height: 5927px;}
 
 
 
+/* INTRO TWO SECTIONS STARTS HERe/ */
+.intro-two-bar {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 37.5rem;
+}
+
+.intro-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.intro-two-img {
+    width: 868px;
+    height: 489px;
+    margin-top: 3rem;
+}
+
+.intro-two-text h2 {
+    background-image: linear-gradient(to bottom, var(--pri), var(--sec));
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    font-weight: 700;
 
 
+}
+
+.intro-two-text {
+    direction: rtl;
+    width: 520px;
+}
+
+.intro-two-text p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--wri);
+}
+
+.intro-two-text button {
+    /* margin-right:0; */
+    margin: 2rem 0 1.5rem;
+}
+
+.intro-two-text h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--wri);
+}
+
+.unleash {
+    font-size: 2rem;
+    font-weight: 700;
+}
