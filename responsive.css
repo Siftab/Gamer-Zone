@@ -1,4 +1,4 @@
-@media screen and (max-width:576px) {
+@media screen and (min-width: 320px)  and (max-width:576px)  {
 
     .nav-bar,
     .nav-btn {
@@ -99,6 +99,19 @@ margin-bottom: 3.75rem;
 
 .card{margin: 0 auto;
 text-align: center;}
+
+
+/* POSTER SECTION STARTS HERE */
+
+
+.poster{flex-direction: column;
+    transform: translate(-96px,3rem);
+}
+.poster-text{direction: initial;
+text-align: center;}
+
+
+
 
 
 
