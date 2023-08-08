@@ -66,8 +66,22 @@ text-align: center;}
 .text-ele{transform: translate(18rem);}
 .intro-h-one{margin-top: 131px;}
 
-
-
-
-
     }
+
+   /*  INTRO TWO RESPONSIVE START HERE  */
+.intro-two-bar{  background: none;}
+        .intro-two{flex-direction: column;
+      }
+        .intro-two-text{
+            direction: initial;
+            text-align: center;
+            margin-top: 4rem;
+        }
+.intro-two-text button{
+    margin-bottom: 3.75rem;
+}
+/* .
+        .intro-two-img{
+            margin-top: 2.25rem;
+        }
+ */
