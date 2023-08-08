@@ -205,7 +205,7 @@ nav .nav-jn {
 
 
 /* INTRO-TRI STARTS HERE */
-.intro-trio-bar {}
+.intro-trio-bar {height: 5927px;}
 
 .intro-tri {
     display: flex;
@@ -245,4 +245,8 @@ nav .nav-jn {
     color: transparent;
     -webkit-background-clip: text;
 }
-.card p{margin-top: 1.5rem;}
+.card p{margin-top: 1.5rem;
+font-weight: 500;
+font-size: 1.5rem;}
+
+

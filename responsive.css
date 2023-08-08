@@ -81,4 +81,26 @@ text-align: center;}
 margin-bottom: 3.75rem;
 }
 
+/* INTRO TRI BAR RESPONSIVE SECTION  */
+
+.intro-tri{margin-top: 20rem}
+.card img{
+    width: 603px;
+    height: 560.331px;}
+.grid{ grid-template-columns: repeat(1,1fr);
+       margin: 0 auto;
+    align-items: center;}
+
+
+
+
+
+.card p{width: 37.7rem;}
+
+.card{margin: 0 auto;
+text-align: center;}
+
+
+
+
     }
