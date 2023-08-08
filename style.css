@@ -247,6 +247,39 @@ nav .nav-jn {
 }
 .card p{margin-top: 1.5rem;
 font-weight: 500;
-font-size: 1.5rem;}
+}
+
+/* POSTER SECTION START HERE
+ */.poster{display: flex;
+    align-items: center;position: relative;
+    width: 120rem;
+    transform: translate(26.5rem,7.5rem);
+
+}
+.poster-text{direction: rtl;
+margin-right: 16.47rem;}
+.poster-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+    width: 21.3125rem;
+    height: 11.25rem; 
+  
+}
+.play
+{background-image: linear-gradient(to bottom,var(--pri) ,var(--sec) 200%);
+color: transparent;
+-webkit-background-clip: text;}
+.poster-text p{color: var(--wri);
+    font-weight: 400;
+    font-size:1.25rem;
+    width: 22.06rem;
+    height: 5.62rem;
+
+}
 
 
+.poster-img{position: relative;}
+ .img-2{position: absolute;
+                   bottom:-80px;
+                left:28.5rem;}
