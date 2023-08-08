@@ -205,7 +205,9 @@ nav .nav-jn {
 
 
 /* INTRO-TRI STARTS HERE */
-.intro-trio-bar {height: 5927px;}
+.intro-trio-bar {
+    height: 5927px;
+}
 
 .intro-tri {
     display: flex;
@@ -225,7 +227,7 @@ nav .nav-jn {
     width: 1440px;
     margin: 0 auto;
     column-gap: 1.5rem;
-} 
+}
 
 .intro-tri-text h1 {
     font-size: 3rem;
@@ -245,41 +247,97 @@ nav .nav-jn {
     color: transparent;
     -webkit-background-clip: text;
 }
-.card p{margin-top: 1.5rem;
-font-weight: 500;
+
+.card p {
+    margin-top: 1.5rem;
+    font-weight: 500;
 }
 
 /* POSTER SECTION START HERE
- */.poster{display: flex;
-    align-items: center;position: relative;
+ */
+.poster {
+    display: flex;
+    align-items: center;
+    position: relative;
     width: 120rem;
-    transform: translate(26.5rem,7.5rem);
+   
+    transform: translate(26.5rem, 7.5rem);
 
 }
-.poster-text{direction: rtl;
-margin-right: 16.47rem;}
-.poster-text h1{
+
+.poster-text {
+    direction: rtl;
+    margin-right: 16.47rem;
+}
+
+.poster-text h1 {
     font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
     width: 21.3125rem;
-    height: 11.25rem; 
-  
+    height: 11.25rem;
+
 }
-.play
-{background-image: linear-gradient(to bottom,var(--pri) ,var(--sec) 200%);
-color: transparent;
--webkit-background-clip: text;}
-.poster-text p{color: var(--wri);
+
+.play {
+    background-image: linear-gradient(to bottom, var(--pri), var(--sec) 200%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.poster-text p {
+    color: var(--wri);
     font-weight: 400;
-    font-size:1.25rem;
+    font-size: 1.25rem;
     width: 22.06rem;
     height: 5.62rem;
 
 }
 
 
-.poster-img{position: relative;}
- .img-2{position: absolute;
-                   bottom:-80px;
-                left:28.5rem;}
+.poster-img {
+    position: relative;
+}
+
+.img-2 {
+    position: absolute;
+    bottom: -80px;
+    left: 28.5rem;
+}
+
+
+
+/*BUTTON SECTION HERE */
+.game-btn-bar{background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+    height: 427px;
+    
+
+}
+.game-btn-section{width: 1440px;
+    margin: 0 auto;
+    margin-top: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.7rem;
+    justify-content: center; align-items: center;
+    height: 427px;
+ 
+}
+
+.game-btn{padding: .5rem.25rem;
+    border-radius: 3.125rem;
+display: flex;
+align-items: center;
+color: #0B0223;
+font-size: 1rem;
+font-weight: 600;
+background-color:#FFF;border: none ;
+
+}
+.game-btn p{margin-left: 10px;}
+
+.game-btn:hover{
+    color: var(--pri);
+    border:1px solid var(--pri);
+}
