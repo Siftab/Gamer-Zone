@@ -202,3 +202,47 @@ nav .nav-jn {
     font-size: 2rem;
     font-weight: 700;
 }
+
+
+/* INTRO-TRI STARTS HERE */
+.intro-trio-bar {}
+
+.intro-tri {
+    display: flex;
+    text-align: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.intro-tri-text {
+    margin: 0 auto;
+    ;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1440px;
+    margin: 0 auto;
+    column-gap: 1.5rem;
+} 
+
+.intro-tri-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 120px;
+    color: #0B0223;
+
+}
+
+.intro-tri-text p {
+    margin: 1rem 0 3rem;
+    color: var(--wri)
+}
+
+.funny {
+    background-image: linear-gradient(to bottom, var(--pri), var(--sec));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.card p{margin-top: 1.5rem;}
