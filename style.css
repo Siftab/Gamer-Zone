@@ -189,7 +189,7 @@ nav .nav-jn {
 }
 
 .intro-two-text button {
-    /* margin-right:0; */
+    
     margin: 2rem 0 1.5rem;
 }
 
@@ -342,6 +342,7 @@ nav .nav-jn {
     border: none;
 
 }
+
 
 .game-btn p {
     margin-left: 10px;
