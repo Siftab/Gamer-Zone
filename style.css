@@ -369,7 +369,9 @@ nav .nav-jn {
 .footer-logo {
     margin-top: 120px;
     gap: 20px;
+    
 }
+.footer-logo p{color: #FFF;}
 
 .footer-box a {
     text-decoration: none;
